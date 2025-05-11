@@ -1,0 +1,46 @@
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.foto {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+h1 {
+  margin: 10px 0 5px;
+}
+
+.sosial a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #2b6777;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.sosial a:hover {
+  color: #52ab98;
+}
